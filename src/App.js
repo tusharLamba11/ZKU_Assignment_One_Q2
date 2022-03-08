@@ -139,7 +139,7 @@ const App = () => {
           Mint NFT
         </button>
       ) : (
-        <div className="mb-20 flex flex-col items-center justify-center gap-y-3 text-2xl font-bold">
+        <div className="dataContainer">
           <div>----------------------------------------</div>
           <div>Please connect to the Rinkeby Testnet</div>
           <div>and reload the page</div>
@@ -147,7 +147,7 @@ const App = () => {
         </div>
       )}
       {loading && (
-        <div className="flex flex-col items-center justify-center">
+        <div className="dataContainer">
           <div className="text-lg font-bold">Processing your transaction</div>
         </div>
       )}
